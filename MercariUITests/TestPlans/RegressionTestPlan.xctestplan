@@ -1,0 +1,29 @@
+{
+  "configurations" : [
+    {
+      "id" : "6F54B8F2-81F0-4764-9A4F-01ECDAB4260D",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "skippedTests" : [
+        "BaseTestCase",
+        "MercariUITestCase"
+      ],
+      "target" : {
+        "containerPath" : "container:Mercari.xcodeproj",
+        "identifier" : "E49A27DB27095E1000777625",
+        "name" : "MercariUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
